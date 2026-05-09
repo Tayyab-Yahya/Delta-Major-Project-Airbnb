@@ -11,12 +11,5 @@
       "src": "/(.*)",
       "dest": "index.js"
     }
-  ],
-  "redirects": [
-    {
-      "source": "/",
-      "destination": "/listings",
-      "permanent": true
-    }
   ]
 }
