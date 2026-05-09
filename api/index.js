@@ -104,7 +104,7 @@ app.use("/listings/:id/reviews", reviewRouter);
 app.use("/", userRouter);
 
 app.get("/", (req,res)=>{
-    res.send("Hi, I am root.");
+    res.redirect("/listings");
 });
 
 // app.get("/testListing", async (req, res) => {
